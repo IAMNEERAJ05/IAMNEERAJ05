@@ -26,3 +26,5 @@ catch(err) {
 document.getElementById("demo").innerHTML = err.message;
 }
 </script> """)
+st.latex(r"""\{(a,b,c)~|~ \text{there is a direct flight between} ~a~ \text{and} ~b, a \neq b,~ \text{with a fare of \rupee} ~c\}""")
+
